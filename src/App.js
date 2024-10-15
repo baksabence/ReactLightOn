@@ -5,12 +5,12 @@ import { useState } from "react"
 
 function App() {
   //const allapotLista = [true, false, true, true, false, false, true, false, true]
-  const [allapotLista, setallapotLista]=useState([true, false, true, true, false, false, true, false, true])
+  const [allapotLista, setallapotLista]=useState([true, false, true, true, false, false, true, false, true]);
  
 
   function kattintas(adat){
-    const slista = [...allapotLista]
-    slista[adat] = !slista[adat]
+    const slista = [...allapotLista];
+    slista[adat] = !slista[adat];
  //   if(slista[adat] === true){
 //      slista[adat] = false
  //   }else{

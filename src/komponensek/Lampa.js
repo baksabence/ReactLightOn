@@ -8,7 +8,7 @@ export default function Lampa(props){
     return(
       
         <div className = {`lampa ${props.mezo === false ? "fel" : "le"  }` } onClick={()=>kattintas()}>
-            
+        {props.mezo}    
 
         </div>
         
