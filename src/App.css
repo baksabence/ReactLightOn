@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(10, 2, 2);
+}
+
+.App{
+  width: 100%;
+  max-width: 876px;
+  margin: auto;
+}
+
+.jatekter{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.lampa{
+  aspect-ratio: 1;
+  width: 90%;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+
+.fel{
+  background-color: green;
+}
+
+.le{
+  background-color: orange;
+}
+
+
